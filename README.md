@@ -52,3 +52,7 @@ Nos ubicamos en la carpeta creada:
 y copiamos la siguiente línea de código para correr nuestra primera app en react!!
 
 `npm start`
+
+##Profundizando sobre nuestros componentes
+
+Todos los elementos de nuestro proyecto son componentes; átomos que en conjunto se pueden convertir en bloques o moléculas y así sucesivamente hasta construir el total de nuestra aplicación. Gracias a esto conseguimos una aplicación donde los cambios y las nuevas características son fáciles y rápidos de implementar.
