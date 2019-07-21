@@ -56,3 +56,19 @@ y copiamos la siguiente línea de código para correr nuestra primera app en rea
 ## Profundizando sobre nuestros componentes
 
 Todos los elementos de nuestro proyecto son componentes; átomos que en conjunto se pueden convertir en bloques o moléculas y así sucesivamente hasta construir el total de nuestra aplicación. Gracias a esto conseguimos una aplicación donde los cambios y las nuevas características son fáciles y rápidos de implementar.
+
+## Usando Estilos en nuestro proyecto
+
+React nos permite estilizar nuestros componentes con estilos en línea, sin embargo, este método tiene algunas limitaciones: debemos usar camelCase en vez de la sintaxis normal con guiones (por ejemplo, font-size lo declaramos como fontSize), no podemos usar la propiedad :hover o ningún otro pseudo-selector, no podemos estilizar clases ni usar la herencia de componentes, no podemos definir animaciones, entre otras limitaciones.
+
+Afortunadamente, herramientas como styled-components nos ayudan a crear nuestros estilos en componentes de React con JavaScript sin perder las características de CSS, de hecho, conseguimos algunos beneficios extra al juntar ambos lenguajes: CSS y JavaScript.
+
+Instalación de styled-components: npm install styled-components --save
+
+Más información sobre styled-components en: https://www.styled-components.com
+
+## Trabajando con Styled-components
+
+Una de las características de styled-components es que podemos definir los estilos de nuestros elementos sin preocuparnos por los nombres de las clases, styled-components lo hace por nosotros, además, se encarga de que nunca se repitan clases entre componentes diferentes, así nos aseguramos de que nuestros estilos se aplican sólo a los elementos que nosotros necesitamos y no tenemos errores de estilos en nuestra aplicación.
+
+Puedes buscar tus fuentes favoritas en: https://fonts.google.com
