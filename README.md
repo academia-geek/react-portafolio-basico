@@ -84,3 +84,52 @@ Vamos a añadir algunos iconos a nuestra aplicación, debemos añadir esta etiqu
 Más información sobre Font Awesome en: https://fontawesome.com
 Otra forma de añadir iconos de Font Awesome a nuestras aplicaciónes con React: https://fontawesome.com/how-to-…/on-the-web/using-with/react
 Crea una galería de fuentes a partir de iconos con IcoMoon: https://youtu.be/_5r4PFi8gDc
+
+## Agregando animaciones
+
+Styled Components también nos permite crear animaciones de css con keyframes, solo debemos importar la función keyframes de styled-components, crear una variable con las animaciones y añadirlas a los estilos de nuestros componentes creados con la función styled en la propiedad animation:
+
+```javascript
+import { keyframes } from 'styled-components';
+
+const move = keyframes`
+from { ... }
+to { ... }
+`;
+
+const MyComponent = styled.tag`
+animation: ${move} ... ...;
+`;
+```
+
+## Estilos globales
+Styled Components también nos permite crear estilos globales, es decir, estilos para las etiquetas generales (por ejemplo, html, body o main) o estilos reutilizables a partir de clases (por ejemplo, .d-none para ocultar componentes o .t-red para definir textos con mensajes importantes).
+
+Para esto debemos importar la función createGlobalStyle de styled-components, crear un componente con los estilos globales e incluir este componente en nuestra aplicación:
+```javascript
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyle = createGlobalStyle`
+body { ... }
+`;
+
+const App = () => {
+return (
+...
+<GlobalStyle />
+...
+);
+}
+```
+
+## Hacer Responsivo el portafolio
+
+Styled Components también nos permite añadir media queries a nuestros componentes, ni siquiera debemos importar una función especial del paquete de styled-components, solo debemos escribirlas común y corriente con el resto de estilos de cada componente:
+
+```javascript
+const MyComponent = styled.tag`
+@media screen and (...) {
+...
+}
+`;
+```

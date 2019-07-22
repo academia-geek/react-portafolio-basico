@@ -8,7 +8,7 @@ const Experience = () => (
         <div className="Experiencie-container">
             <div className="Experience-item">
                 <H3Styled>Formador Geek</H3Styled>
-                <PStyled name="Desarrollando Personas en Geek Academy! =D"/>
+                <PStyled name="Imperdiet sem dapibus faucibus nam a posuere facilisi ridiculus curabitur et bibendum tincidunt aliquam praesent enim, nibh convallis auctor interdum suspendisse porttitor porta magna consequat velit tempus feugiat facilisis eu."/>
             </div>
         </div>
     </div>
