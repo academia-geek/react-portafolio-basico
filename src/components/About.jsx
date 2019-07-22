@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Social from '../components/Social'
 const AboutStyle = styled.div`
     text-align: center;
 `;
@@ -71,7 +72,7 @@ const About = () => (
                 <AboutLocation>Medellín, Colombia</AboutLocation>
             </div>
             <div className="About-social">
-                Social
+                <Social />
             </div>
         </div>
     </AboutStyle>

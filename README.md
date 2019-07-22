@@ -72,3 +72,15 @@ Más información sobre styled-components en: https://www.styled-components.com
 Una de las características de styled-components es que podemos definir los estilos de nuestros elementos sin preocuparnos por los nombres de las clases, styled-components lo hace por nosotros, además, se encarga de que nunca se repitan clases entre componentes diferentes, así nos aseguramos de que nuestros estilos se aplican sólo a los elementos que nosotros necesitamos y no tenemos errores de estilos en nuestra aplicación.
 
 Puedes buscar tus fuentes favoritas en: https://fonts.google.com
+
+## Añadiendo temas a nuestro proyecto
+
+Vamos a añadir algunos iconos a nuestra aplicación, debemos añadir esta etiqueta <link> dentro del <head> de nuestro archivo public/index.html:
+
+<script src="https://kit.fontawesome.com/899555accf.js"></script>
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
+
+Más información sobre Font Awesome en: https://fontawesome.com
+Otra forma de añadir iconos de Font Awesome a nuestras aplicaciónes con React: https://fontawesome.com/how-to-…/on-the-web/using-with/react
+Crea una galería de fuentes a partir de iconos con IcoMoon: https://youtu.be/_5r4PFi8gDc
